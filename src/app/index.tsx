@@ -8,9 +8,7 @@ export default function HomeScreen() {
     <View style={styles.container}>
       <Text style={styles.eyebrow}>FinanceTrack</Text>
       <Text style={styles.title}>Inicio</Text>
-      <Text style={styles.subtitle}>
-        Tu resumen financiero en una sola vista.
-      </Text>
+      <Text style={styles.subtitle}>Tu resumen financiero en una sola vista.</Text>
 
       <Link href="/details" asChild>
         <Button size="lg">

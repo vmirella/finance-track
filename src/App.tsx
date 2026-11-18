@@ -19,9 +19,7 @@ export default function App() {
 
         <View style={styles.panel}>
           <Text style={styles.panelTitle}>Próximo objetivo</Text>
-          <Text style={styles.panelText}>
-            Ahorra $500 para tu fondo de emergencia.
-          </Text>
+          <Text style={styles.panelText}>Ahorra $500 para tu fondo de emergencia.</Text>
         </View>
       </ScrollView>
     </SafeAreaView>

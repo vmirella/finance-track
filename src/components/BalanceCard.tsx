@@ -6,11 +6,7 @@ type BalanceCardProps = {
   tone?: 'primary' | 'success';
 };
 
-export function BalanceCard({
-  label,
-  value,
-  tone = 'primary',
-}: BalanceCardProps) {
+export function BalanceCard({ label, value, tone = 'primary' }: BalanceCardProps) {
   return (
     <View style={[styles.card, tone === 'success' && styles.successCard]}>
       <Text style={styles.label}>{label}</Text>
