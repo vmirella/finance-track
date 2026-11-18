@@ -1,5 +1,7 @@
 import { Link } from 'expo-router';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
+
+import { Button, ButtonText } from '@/src/components/ui/button';
 
 export default function HomeScreen() {
   return (
@@ -11,9 +13,9 @@ export default function HomeScreen() {
       </Text>
 
       <Link href="/details" asChild>
-        <Pressable style={styles.button}>
-          <Text style={styles.buttonText}>Ver detalles</Text>
-        </Pressable>
+        <Button size="lg">
+          <ButtonText>Ver detalles</ButtonText>
+        </Button>
       </Link>
     </View>
   );
